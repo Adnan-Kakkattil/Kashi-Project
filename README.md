@@ -38,8 +38,13 @@ config/thresholds.json          Shared alert thresholds
 wiring/pinout.md                GPIO map
 scripts/mosquitto.conf          MQTT broker config
 docker-compose.yml              Mosquitto + Node-RED
-docs/                           Setup notes + report diagrams
+docs/                           Setup notes, diagrams, components list
 ```
+
+## Implementation & components
+
+- [Implementation diagram](docs/implementation-diagram.md) · [PNG](docs/assets/implementation-diagram.png)
+- [Required components list](docs/required-components-list.md) · [PNG](docs/assets/required-components-list.png)
 
 ## Quick start
 
