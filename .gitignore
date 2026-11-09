@@ -1,0 +1,36 @@
+# Secrets / local config
+firmware/site_safety_monitor/config.h
+.env
+*.pem
+*.key
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+.pio/
+.vscode/.browse.c_cpp.db*
+*.hex
+*.elf
+*.bin
+*.map
+
+# Node / Node-RED
+node_modules/
+.node-red/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Temp
+tmp/
+temp/
+*.tmp

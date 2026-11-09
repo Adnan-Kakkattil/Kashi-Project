@@ -1,0 +1,29 @@
+#pragma once
+
+// Copy this file to config.h and fill in your credentials.
+// config.h is gitignored so secrets stay local.
+
+// ----- Wi-Fi -----
+#define WIFI_SSID     "YOUR_WIFI_SSID"
+#define WIFI_PASSWORD "YOUR_WIFI_PASSWORD"
+
+// ----- MQTT -----
+#define MQTT_BROKER   "192.168.1.10"   // Mosquitto / broker host
+#define MQTT_PORT     1883
+#define MQTT_USER     ""               // leave empty if anonymous
+#define MQTT_PASSWORD ""
+#define MQTT_CLIENT_ID "site-safety-esp32s3"
+
+// Base topic: site/safety/...
+#define MQTT_TOPIC_BASE "site/safety"
+
+// ----- Telegram (sent from Node-RED; optional device-side stub) -----
+// Prefer Telegram via Node-RED flow. These are unused by default firmware.
+#define TELEGRAM_BOT_TOKEN ""
+#define TELEGRAM_CHAT_ID   ""
+
+// ----- Feature flags -----
+#define ENABLE_PMS5003   1   // dust sensor (optional)
+#define ENABLE_FLAME     1   // flame sensor (optional)
+#define ENABLE_VOICE     0   // speaker voice alerts (optional)
+#define ENABLE_OLED      1

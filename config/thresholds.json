@@ -1,0 +1,13 @@
+{
+  "temperature_c": { "caution": 32, "danger": 38 },
+  "humidity_pct": { "caution": 80 },
+  "mq2_raw": { "caution": 1200, "danger": 2000 },
+  "mq7_raw": { "caution": 800, "danger": 1500 },
+  "noise_db": { "caution": 85, "danger": 95 },
+  "pm25_ugm3": { "caution": 55, "danger": 150 },
+  "notes": {
+    "mq_raw": "Analog 12-bit readings; calibrate against known exposures.",
+    "noise_db": "INMP441 estimate — verify with a sound level meter.",
+    "heat": "Aligned with outdoor heat-stress guidance for early warning."
+  }
+}
